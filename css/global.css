@@ -1,0 +1,178 @@
+/* Camilia El Moustarih - Feuille de styles du Travail Pratique 1 */
+
+/* Remise à zéro CSS */
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+/* Styles généraux pour l'identifiant de body #global */
+#global{
+    background-color: #ffffff;
+    max-width: 1920px;
+    max-height: 1080px;
+    font-family: Arial, Helvetica, sans-serif;
+    position: unset;
+    margin-top: 30px;
+}
+
+/* Styles et sélecteur hover pour le logo de la page */
+#logo{
+    margin-left: 450px;
+}
+
+#logo:hover{
+    cursor: pointer;
+}
+
+/* Styles pour la liste de navigation du site incluant un sélecteur hover pour chaque élément de la liste */
+#navHeader{
+    margin-left: 710px;
+    transform: translateY(-90%);
+    padding-bottom: 3px;
+}
+
+li{
+    display: inline;    
+    padding: 10px;
+}
+
+li:hover{
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+/* Styles pour la figure et le figcaption */
+#figureCentrale{
+    margin-left: 410px;
+    width: 1040px;
+    position: relative;
+}
+
+figure{
+    box-shadow: 15px 15px 10px 4px #838383;
+    max-height: 400px;
+}
+
+figcaption{
+    color: #ffffff;
+    font-weight: bold;
+    background-color: rgba(0,0,0,0.5);
+    min-width: 960px;
+    min-height: 40px;
+    padding-left: 10px;
+    padding-top: 10px;
+    position: absolute;
+    top: 481px;
+    left: 960px;
+    transform: translate(-95.8%, -300%);
+}
+
+/* Styles généraux pour le conteneur du footer qui inclut les conteneurs div de coordonnées, réseaux sociaux et la barre de recherche */
+.sectionFooter{
+    background-color: #000000;
+    margin-top: 250px;  
+    position: absolute;
+}
+
+#footerList div{
+    display: inline-block;
+    width: 50vw;
+    height: 15vh;
+    text-align: center;
+    margin-top: 160px;
+}
+
+#footerList{
+    margin-left: 380px;
+    width: 30%;
+    transform:  translateY(-38%);
+    display: flex;
+    justify-content: space-around;
+}
+
+/* Styles du conteneur div contenant les coordonnées de la compagnie et les emojis respectifs */
+p{
+    text-align: left;
+    margin-left: 55px;
+    color: #ffffff;
+    font-size: 14px;
+    line-height: 30px;
+}
+
+p:hover{
+    cursor: pointer;
+    background-color: #6d848a;
+    width: 200px;
+}
+
+/* Transform pour le conteneur div des réseaux sociaux pour la position */
+#social{
+    transform: translateX(10%);
+}
+
+/* Pour les positions des logos de réseaux sociaux du conteneur div #social et le sélecteur :hover */
+#fb, #insta, #yT{
+    transform: translateX(-80%);
+    padding-top: 5px;
+    margin-right: 8px;
+}
+
+#fb:hover, #insta:hover, #yT:hover{
+    cursor: pointer;
+}
+
+/* Styles pour la barre de recherche et le bouton emoji */
+form{
+   margin-left: 80px;
+   background: rgb(0, 0, 0);
+}
+
+#boutonLoupe{
+    margin-left: 250px;
+    transform: translateY(-115%);
+    width: 38px;
+    background-color: #000000;  
+}
+
+#boutonLoupe:hover{
+    cursor: pointer;
+}
+
+input{
+    background-color:#000000;
+    height: 30px;
+    width: 250px;
+    color:#ffffff;
+    padding-left: 5px;
+    transform: translateX(8%);
+}
+
+::placeholder{
+    color:#ffffff;
+    font-size: 13px;
+    padding: 1px;
+}
+
+/* Styles et sélecteur :hover pour les sous-titres h2 et h5 du footer */
+h2, h5{
+    color: #ffffff;
+    font-weight: lighter;
+}
+
+h2{
+    padding-bottom: 15px;
+    font-size: 26px;
+}
+
+h5{
+    margin-left: 440px;
+    transform:  translateY(-20%);
+}
+
+h5:hover{
+    text-decoration: underline;
+    cursor: pointer;
+}
+
